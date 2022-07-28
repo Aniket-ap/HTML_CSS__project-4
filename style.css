@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* .container{
+    padding: 25px 0 0 55px
+} */
+
+.navbar-container{
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container div img{
+    height: 40px;
+}
+
+.grow-list{
+    margin-right: auto;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+
+}
+
+.list-item{
+    margin: 0 30px;
+    color: #BBBBBB;
+    cursor: pointer;
+}
+
+.list-item:first-child{
+    margin-left: 80px;
+    color: #111;
+    font-weight: 400;
+}
+
+.list-item:hover{
+    color: #111;
+    font-weight: 400;
+}
+
+.nav-button{
+    background-color: #5955B3;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/* Hero section */
+
+.banner-container{
+    display: flex;
+    padding-left: 40px;
+}
+
+.banner-container div{
+    flex: 50%;
+}
+
+.banner-container div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 50%;
+}
+
+.heading-text{
+    color: #3C2F60;
+    font-size: 70px;
+    line-height: 80px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.description{
+    width: 70%;
+    color: #BBBBBB;
+    margin-bottom: 40px;
+}
+
+.heading-text span{
+    color: #5955B3;
+}
+
+.banner-container div img{
+    width: 100%;
+}
